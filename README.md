@@ -6,4 +6,9 @@
 
 ~microphone input code.py capture a microphone input in real time using specified parameters, stores the recorded data in a wavefile object, transcribes it the encodes it by generating an encryption key. The encrypted data is also decoded uisng a decryption key.
 
-~
+~import pyaudio.py loads a stored wave audio format file and produces te following audio signal parameters: 
+        `Number of channels i.e. mono for single channel and stereo for two channels
+        `Sample width
+        `Frame rate/sample rate
+        `Number of frames
+        `Value of a frame
